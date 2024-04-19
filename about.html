@@ -11,6 +11,23 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+		<script>
+			function showResume() {
+				var pdfPath = "files/Thomas-Resume.pdf";
+
+            	window.open(pdfPath, '_blank');
+			}
+		</script>
+
+		<script>
+			function showTranscript() {
+				var pdfPath = "files/Thomas-Transcript.pdf";
+            
+            	window.open(pdfPath, '_blank');
+			}
+		</script>
+
 	</head>
 	<body class="is-preload">
 
@@ -32,7 +49,7 @@
 							<ul class="links">
 								<li><a href="index.html">Home</a></li>
 								<li><a href="about.html">About Me</a></li>
-								<li><a href="elements.html">Elements</a></li>
+								<!--<li><a href="elements.html">Elements</a></li>-->
 							</ul>
 							<a href="#" class="close">Close</a>
 						</div>
@@ -56,23 +73,25 @@
 
 									<p>Since then, I have explored varying programming languages such as Java, C#, JavaScript, HTML, and CSS just to name a few. I have curated varying projects and discovered that my passion branches into 2 areas: Software Engineering and Game Design.</p>
 
-									<p>Now, as I attend Bethune-Cookman University on a Full-Ride Scholarship, I am curating a skill set that would prepare me for a position in both sides of the Computer Science field.</p>
+									<p>Now, as I attend Bethune-Cookman University on a Full-Ride Scholarship, I am developing a skill set that would prepare me for a position in both sides of the Computer Science field.</p>
 
-									<h3 class="major">Vitae phasellus</h3>
-									<p>Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.</p>
+									<h3 class="major">Resume & Transcript</h3>
+									<p>Below, you can find copies of my reumse and most recent undergraduate transcript.</p>
 
 									<section class="features">
 										<article>
-											<a href="#" class="image"><img src="images/pic04.jpg" alt="" /></a>
-											<h3 class="major">Sed feugiat lorem</h3>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p>
-											<a href="#" class="special">Learn more</a>
+											<a href="#" class="image"><img src="images/resume.jpg" alt="" /></a>
+											<h3 class="major">Resume</h3>
+											<!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p>-->
+											<!--<a href="#" class="special">Learn more</a> -->
+											<button class="special" onclick="showResume()">View</button>
 										</article>
 										<article>
-											<a href="#" class="image"><img src="images/pic05.jpg" alt="" /></a>
-											<h3 class="major">Nisl placerat</h3>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p>
-											<a href="#" class="special">Learn more</a>
+											<a href="#" class="image"><img src="images/BCU.jpg" alt="" /></a>
+											<h3 class="major">Most Recent Transcript</h3>
+											<!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p>-->
+											<!--<a href="#" class="special">Learn more</a> -->
+											<button class="special" onclick="showTranscript()">View</button>
 										</article>
 									</section>
 
@@ -112,10 +131,10 @@
 								Daytona Beach, FL 32114
 							</li>
 							<li class="icon solid fa-phone">(404) 205-6748</li>
-							<li class="icon solid fa-envelope"><a href="#">tysonmthomas@gmail.com</a></li>
+							<li class="icon solid fa-envelope"><a href="mailto:tysonmthomas@gmail.com">tysonmthomas@gmail.com</a></li>
 							<!--<li class="icon brands fa-github"><a href="#">github.com/tysonblue15</a></li>
 							<li class="icon brands fa-facebook-f"><a href="#">facebook.com/untitled-tld</a></li>-->
-							<li class="icon brands fa-instagram"><a href="#">instagram.com/tys.creates</a></li>
+							<li class="icon brands fa-instagram"><a href="https://www.instagram.com/tys.creates/">instagram.com/tys.creates</a></li>
 						</ul>
 						<ul class="copyright">
 							<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
